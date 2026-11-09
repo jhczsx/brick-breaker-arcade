@@ -9,10 +9,10 @@
 
 <div align="center">
 
-[![Jogar agora](https://img.shields.io/badge/%F0%9F%8E%AE_Jogar%20agora-37e6ff?style=for-the-badge&logo=github&logoColor=000)](https://__GITHUB_USERNAME__.github.io/brick-breaker-arcade/)
+[![Jogar agora](https://img.shields.io/badge/%F0%9F%8E%AE_Jogar%20agora-37e6ff?style=for-the-badge&logo=github&logoColor=000)](https://jhczsx.github.io/brick-breaker-arcade/)
 [![Licença](https://img.shields.io/badge/License-MIT-ffb03a?style=for-the-badge)](LICENSE)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES%20Modules-f7df1e?style=for-the-badge&logo=javascript&logoColor=000)](src/)
-[![GitHub Pages](https://img.shields.io/badge/deployed%20on-GitHub%20Pages-7c5cff?style=for-the-badge&logo=github&logoColor=white)](https://__GITHUB_USERNAME__.github.io/brick-breaker-arcade/)
+[![GitHub Pages](https://img.shields.io/badge/deployed%20on-GitHub%20Pages-7c5cff?style=for-the-badge&logo=github&logoColor=white)](https://jhczsx.github.io/brick-breaker-arcade/)
 
 </div>
 
@@ -160,5 +160,5 @@ mantenha os créditos.
 ---
 
 <div align="center">
-  Feito com ☕ e muita curiosidade por <strong>__GITHUB_USERNAME__</strong>
+  Feito com ☕ e muita curiosidade por <strong>jhczsx</strong>
 </div>
