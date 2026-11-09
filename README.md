@@ -103,12 +103,14 @@ Depois é só abrir **http://localhost:8000** no navegador.
 │       ├── ball.js         # a bola e o ângulo de rebote
 │       └── bricks.js       # blocos, níveis e colisão
 ├── assets/                 # screenshots do README
-├── .github/workflows/
-│   └── pages.yml           # publicação automática no GitHub Pages
 ├── .gitignore
+├── .gitattributes
 ├── LICENSE
 └── README.md
 ```
+
+> O site é publicado pela branch [`gh-pages`](https://github.com/jhczsx/brick-breaker-arcade/tree/gh-pages),
+> que é gerada a partir da `main` — veja [Publicação](#-publicação).
 
 ---
 
@@ -121,9 +123,28 @@ Depois é só abrir **http://localhost:8000** no navegador.
 | **CSS3** | Layout, efeitos visuais e responsividade |
 | **Web Audio API** | Sons gerados por código, sem arquivos |
 | **LocalStorage API** | Guarda do recorde |
-| **GitHub Actions** | Deploy automático no GitHub Pages |
+| **GitHub Pages** | Publicação do jogo na web |
 
 Sem `npm install`, sem bundler, sem framework. Você abre, joga, e pronto.
+
+---
+
+## 📤 Publicação
+
+O jogo é publicado no GitHub Pages pela branch `gh-pages`, que é gerada a partir da `main`.
+Como o projeto é 100% estático, basta enviar o `main` para a `gh-pages`:
+
+```bash
+git push origin main:gh-pages
+```
+
+Depois de alguns minutos o site é atualizado em
+**https://jhczsx.github.io/brick-breaker-arcade/**.
+
+> 💡 **Alternativa com CI/CD:** dá pra publicar pelo GitHub Actions usando um workflow em
+> `.github/workflows/pages.yml`. Só que o GitHub exige que o token do push tenha o escopo
+> `workflow` habilitado — tokens comuns não vêm com ele por padrão, e aí o envio do
+> arquivo é bloqueado. Com o escopo certo, o deploy passa a acontecer sozinho a cada push.
 
 ---
 
