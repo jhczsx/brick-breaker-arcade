@@ -1,0 +1,11 @@
+# Normaliza as quebras de linha para LF (padrão no Linux, onde o deploy roda).
+* text=auto eol=lf
+
+# Arquivos binários não devem ser convertidos.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
